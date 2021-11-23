@@ -23,11 +23,11 @@ router.get('/config', (req, res) => {
   config = {
     status: true,
     results: {
-      prefix: '#',
-      namabot: 'ArdyBot',
-      namaowner: 'LordArdy',
-      instagram: 'ff.ardy_store',
-      youtube: 'Ardy Botz'
+      prefix: 'Multi Prefix',
+      namabot: 'Hanzz Botz',
+      namaowner: 'Hanzz-kun',
+      instagram: 'hanzz.jn13',
+      nomerbot: 'wa.me/18077909927'
     }
   }
   res.json(config)
